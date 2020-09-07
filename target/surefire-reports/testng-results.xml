@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Goibibo Automation regression suite" duration-ms="42733" started-at="2020-09-07T04:41:43Z" finished-at="2020-09-07T04:42:26Z">
+    <groups>
+    </groups>
+    <test name="Goibibo feature Testing" duration-ms="42733" started-at="2020-09-07T04:41:43Z" finished-at="2020-09-07T04:42:26Z">
+      <class name="com.qa.goibibo.tests.FlightReviewPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.goibibo.tests.FlightReviewPageTest@58651fd0]" name="setup" is-config="true" duration-ms="9153" started-at="2020-09-07T04:41:43Z" finished-at="2020-09-07T04:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fillPassengerDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.goibibo.tests.FlightReviewPageTest@58651fd0]" name="fillPassengerDetailsTest" duration-ms="32938" started-at="2020-09-07T04:41:52Z" finished-at="2020-09-07T04:42:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Olesea]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lipchenko]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[+91]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6692043449]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[shukurlu@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillPassengerDetailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.goibibo.tests.FlightReviewPageTest@58651fd0]" name="tearDown" is-config="true" duration-ms="620" started-at="2020-09-07T04:42:25Z" finished-at="2020-09-07T04:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.goibibo.tests.FlightReviewPageTest -->
+    </test> <!-- Goibibo feature Testing -->
+  </suite> <!-- Goibibo Automation regression suite -->
+</testng-results>
