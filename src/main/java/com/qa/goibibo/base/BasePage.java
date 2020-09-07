@@ -27,11 +27,8 @@ public class BasePage {
 	public WebDriver init_driver(Properties prop) {
 		
 		String browserName=prop.getProperty("browser").trim();
-		
 		System.out.println("Your browser is : "+browserName);
-		
-		if (browserName.equalsIgnoreCase("chrome")) {
-			
+		if (browserName.equalsIgnoreCase("chrome")) {	
 			WebDriverManager.chromedriver().setup();
 			 driver = new ChromeDriver(); 	
 			
@@ -39,12 +36,10 @@ public class BasePage {
 		
 		else if (browserName.equalsIgnoreCase("firefox")) {
 			
-			
 			WebDriverManager.firefoxdriver().setup();
 			 driver = new FirefoxDriver(); 
 			System.out.println("Your browser is : "+browserName);
 		}
-		
 		else {
 			System.out.println("Your"+ browserName + "is not supported , please pass defined browser ...");
 			
@@ -53,7 +48,6 @@ public class BasePage {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
 		driver.get(prop.getProperty("url"));
 		
 		return driver;
@@ -75,8 +69,6 @@ public class BasePage {
 		 try {
 			FileInputStream ip=new FileInputStream(path);
 			prop.load(ip);
-			
-			
 		} catch (FileNotFoundException e) {
 		
 			e.printStackTrace();
